@@ -1,0 +1,187 @@
+* {
+    margin:0%;
+    padding:0%;
+}
+
+body {
+background-color:rgba(236,210,177,0.4);
+font-family: 'Cabin', sans-serif;
+font-size:1.5em;
+color:rgba(0,0,0,0.5);
+}
+
+main {
+    background-image :url("C:/Users/lmarm/MACARTEDEVISITE/green.it5.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align:center;
+    width:100vw; /*valeur de longueur de la box en viewport*/
+    height:70vh; /*valeur de la box en viewport*/
+    border:3px solid black;/*largeur/style/couleur*/
+}
+
+nav {
+    background-color:rgba(0,0,0,0.4);
+    width: 100%;
+    height: 10%;
+}
+
+a {
+    text-decoration:none;/* aucune décoration */
+    color:ghostwhite;
+    font-family:"Lobster Two", cursive;
+    font-size:0.8em;   
+}
+
+a:hover { /*survol de la souris sur lien */
+    color:rgb(243, 9, 9);
+}
+
+ol {
+    display:flex; /*liens hypertextes sur une même ligne*/
+    justify-content:space-around; /* espace entre deux liens hypertextes*/     
+}
+
+li { 
+   list-style: none; 
+}
+
+
+#bandeau {
+    background-color:rgba(13,44,47, 0.3);
+    margin-top:7%;
+    height:50%;
+}
+
+h1 {
+    color:#e4f3e3;  
+    font-size:1.9em;
+    padding:30px;
+    height:30%;
+}
+
+h2 {
+    font-family:"Josefin-Slab";
+    color:hsl(152, 92%, 74%);
+    padding:20px;
+    height:20%;
+    text-shadow:3px 3px 2px #0D0D0D; /* ombre */
+}
+
+#bandeau p { 
+    font-family:"Josefin-Slab";
+    color:rgb(206, 244, 206);
+    font-size:1em;
+}
+
+header {
+
+    text-align:left;
+    padding:10px;
+}
+
+#contact {
+    padding:40px;
+    text-align:right;
+    padding-right:10%;
+    padding-left:65%;
+    height:20px;
+    font-size:0.7em; 
+}
+
+#contact a {
+    font-family:"Josefin Slab";
+    color:ghostwhite;
+    background-color:rgb(190, 26, 26);
+    width:100%;
+    padding:8px;
+    border: thick double rgba(125, 17, 17, 0.6);
+    border-radius: 10px 10px 10px 10px; 
+    text-shadow:1px 1px 2px black;
+}
+
+#contact a:hover {
+    background-color:rgb(86, 78, 78);
+    border:thick double rgba(0,0,0, 0.2);
+}
+#contact a:focus {
+    background-color:rgb(86, 78, 78);
+    border:thick double rgba(0,0,0, 0.2);
+}
+
+h3 {
+    margin:3%;
+    color:rgb(190,26,26);
+    font-size:1.3em;
+    padding:2%;
+    text-align:center;
+}
+
+.presentation {
+    display: flex;/* utilisation de contenu flexible*/
+    max-width:95%;
+    font-size:0.8em;
+    color:#0D0D0D;
+}   
+
+#image {
+    flex:1;
+    padding:25px 6% 4% 4%;
+}
+
+#text {
+    flex:2;
+    margin: 10px;
+    text-align:justify;
+
+}
+
+
+
+h4,h5 { 
+    margin:8% 10% 7% 10%; /* propriété commune avec h5 footer*/
+    font-size:1.5em;
+    color:rgb(190, 26, 26);
+    text-align:center; /* propriété commune avec h5 footer*/
+    background: linear-gradient(to bottom right, rgba(54, 51, 46,0.8), rgba(34, 129, 61,0.7)); 
+}
+
+
+.motivations {
+    max-width:95%;
+    color:#0D0D0D;
+    margin-left:20px;
+    padding:20px;
+    font-size:0.8em;    
+}
+
+#list {
+    margin:none;
+    padding:0% 2% 10px 2%;
+}
+
+#list ul li {
+    
+    list-style:square; 
+    color:#0D0D0D;
+    font-size:18px;
+}
+
+
+footer {
+    margin:6%;
+    padding:20px;
+}
+
+h5 {
+    background: linear-gradient(to bottom right,rgba(34, 129, 61,0.7),rgba(54, 51, 46,0.8));
+    color:#0D0D0D;
+    font-size:1em;
+}
+
+footer a {
+    padding:20px;
+    color:#02590F;
+    font-size:1.2em;
+}
+
